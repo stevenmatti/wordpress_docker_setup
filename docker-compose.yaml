@@ -23,7 +23,7 @@ services:
   phpmyadmin:
     depends_on:
       - db
-    image: arm64v8/phpmyadmin
+    image: arm64v8/phpmyadmin      # used arm64v8 for it to work on Raspberry pi
     container_name: phpmyadmin
     env_file:
       - '.env'
