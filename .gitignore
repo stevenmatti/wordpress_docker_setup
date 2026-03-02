@@ -1,0 +1,6 @@
+# Ignore the .env file to avoid committing sensitive info
+.env
+
+# Ignore Docker volumes and persistent data folders
+# This folder might change if .env default path is changed
+./wp_files
